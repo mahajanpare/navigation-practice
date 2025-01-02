@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landig Page</title>
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+            /* background-color: #333; */
+            /* color: white; */
+        }
+
+        .flex-contaner {
+            padding: 0;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px;
+            background-color: aliceblue;
+        }
+
+        .flex-contaner .order {
+            display: flex;
+        }
+
+        .order li {
+            list-style: none;
+            font-size: 20px;
+            padding: 5px 10px;
+            cursor: pointer;
+        }
+
+        .order a {
+            text-decoration: none;
+            /* padding: 5px 10px; */
+        }
+
+        .btn {
+            display: flex;
+        }
+
+        .btn .sign-up {
+            padding: 4px 15px;
+            border: none;
+            background-color: white;
+            border: 1px solid black;
+            /* color: white; */
+            font-size: large;
+            margin-right: 10px;
+            border-radius: 5px;
+        }
+
+        .btn .sign-up:hover {
+            background-color: rgb(8, 135, 238);
+            color: white;
+        }
+
+        .btn .login {
+            padding: 4px 15px;
+            border: none;
+            background-color: white;
+            border: 1px solid black;
+            /* color: white; */
+            font-size: large;
+            /* margin-right: 5px; */
+            border-radius: 5px;
+        }
+
+        .btn .login:hover {
+            background-color: rgb(8, 135, 238);
+            color: white;
+            /* border: white; */
+        }
+
+        .img {
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+        }
+
+        .img .img1 img {
+            height: 150%;
+            width: 100%;
+        }
+
+        .img1 img {
+            height: 100%;
+            width: 50%;
+            background-size: cover;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="flex-contaner">
+            <ul class="order">
+                <li><a href="#"></a>Home</li>
+                <li><a href="#"></a>Projects</li>
+                <li><a href="#"></a>About us</li>
+                <li><a href="#"></a>Contact us</li>
+                <li><a href="#"></a>Best sales</li>
+            </ul>
+            <div class="btn">
+                <button class="sign-up ">Sign up</button>
+                <button class="login ">Login</button>
+            </div>
+        </div>
+
+        <div class="img"
+            style="background-color: rgb(107, 102, 102); box-shadow: 10px 5px 5px rgb(82, 80, 80); padding: 50px;">
+            <div class="conten" style="padding: 20px; color: white; text-align: center;">
+                <p style="padding: 10px; font-size: 30px; font-weight: bold;">
+                    Shop Fresh </p>
+                <p style="padding: 5px; font-size: 30px; font-weight: bold;"> Your One-Stop </p>
+                <p style="padding: 5px; font-size: 30px;font-weight: bold; margin-bottom: 10px;">Grocery Destination</p>
+
+                <span style="padding: 10px; font-size: 15px; ">Discover quality produce, pantry staples, and more <br>
+                    all at fingertips for a wonder shopping experience</span>
+            </div>
+            <div class="img1" style="padding: 20px; ">
+                <img src="https://media.istockphoto.com/id/1457979959/photo/snack-junk-fast-food-on-table-in-restaurant-soup-sauce-ornament-grill-hamburger-french-fries.jpg?s=612x612&w=0&k=20&c=QbFk2SfDb-7oK5Wo9dKmzFGNoi-h8HVEdOYWZbIjffo="
+                    alt="">
+            </div>
+        </div>
+
+    </header>
+
+    <section>
+        <div class="main-section" style="padding: 25px;">
+            <div class="titel" style="margin-bottom: 15px;">
+                <p>Browse Our Hottest</p>
+                <p style="color: red;">Categories</p>
+            </div>
+            <div class="item"
+                style="display: flex; justify-content: space-around; align-items: center; padding: 10px; gap: 10px; text-align: center; font-weight: bold;">
+                <div class="child" style="background-color: #fcf6f6; border-radius: 5px; padding: 1px 5px; box-shadow: 5px 10px 10px rgb(240, 232, 232);">
+                    <img src="https://www.foodiesfeed.com/wp-content/uploads/2023/06/burger-with-melted-cheese.jpg"
+                        style="height: 200px; width: 200px; margin-bottom: 10px; border-radius: 5px; margin-top: 0px; padding-top: 0px;">
+                    <p style="margin-bottom: 2px;">Vegetables</p>
+                    <p style="margin-bottom: 10px;">22 items</p>
+                </div>
+                <div class="child" style="background-color: #fcf6f6; border-radius: 5px; padding: 1px 5px; box-shadow: 5px 10px 10px rgb(240, 232, 232);">
+                    <img src="https://www.foodiesfeed.com/wp-content/uploads/2023/06/burger-with-melted-cheese.jpg"
+                        style="height: 200px; width: 200px; margin-bottom: 10px; border-radius: 5px; margin-top: 0px; padding-top: 0px;">
+                    <p style="margin-bottom: 2px;">Vegetables</p>
+                    <p style="margin-bottom: 10px;">22 items</p>
+                </div>
+                <div class="child" style="background-color: #fcf6f6; border-radius: 5px; padding: 1px 5px; box-shadow: 5px 10px 10px rgb(240, 232, 232);">
+                    <img src="https://www.foodiesfeed.com/wp-content/uploads/2023/06/burger-with-melted-cheese.jpg"
+                        style="height: 200px; width: 200px; margin-bottom: 10px; border-radius: 5px; margin-top: 0px; padding-top: 0px;">
+                    <p style="margin-bottom: 2px;">Vegetables</p>
+                    <p style="margin-bottom: 10px;">22 items</p>
+                </div>
+                <div class="child" style="background-color: #fcf6f6; border-radius: 5px; padding: 1px 5px; box-shadow: 5px 10px 10px rgb(240, 232, 232);">
+                    <img src="https://www.foodiesfeed.com/wp-content/uploads/2023/06/burger-with-melted-cheese.jpg"
+                        style="height: 200px; width: 200px; margin-bottom: 10px; border-radius: 5px; margin-top: 0px; padding-top: 0px;">
+                    <p style="margin-bottom: 2px;">Vegetables</p>
+                    <p style="margin-bottom: 10px;">22 items</p>
+                </div>
+                <div class="child" style="background-color: #fcf6f6; border-radius: 5px; padding: 1px 5px; box-shadow: 5px 10px 10px rgb(240, 232, 232);">
+                    <img src="https://www.foodiesfeed.com/wp-content/uploads/2023/06/burger-with-melted-cheese.jpg"
+                        style="height: 200px; width: 200px; margin-bottom: 10px; border-radius: 5px; margin-top: 0px; padding-top: 0px;">
+                    <p style="margin-bottom: 2px;">Vegetables</p>
+                    <p style="margin-bottom: 10px;">22 items</p>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
